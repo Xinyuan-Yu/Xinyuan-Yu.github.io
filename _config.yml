@@ -6,13 +6,14 @@ subaffiliation: Department of Earth, Atmospheric and Planetary Sciences
 affiliation_link: https://web.mit.edu
 subaffiliation_link: https://eapsweb.mit.edu
 affiliation_logo: ./assets/img/logo_combined.svg
+affiliation_logo_link: https://eapsweb.mit.edu
 email: xyyu (at) mit.edu
 address: 77 MASSACHUSETTS AVENUE, CAMBRIDGE, MA 02139
 
 # Search Engine Optimization (SEO)
 keywords: Xinyuan Yu, Xinyuan, Yu Xinyuan
-#canonical: https://minimal-light-theme.yliu.me/
-#description: Song Chen is a Ph.D. canditate at Spin-Ion Technologies and Université Paris-Saclay. His research lies at using magneto-ionics to develop new concepts for magnetic data storage, spintronic devices and magnonics, always with the aim of improving energy efficiency with respect to currently available technologies - with a special focus on the boosting magneto-ionic effect using ion irradiation & ion implantation.
+canonical: https://xinyuan-yu.github.io/
+description: Xinyuan Yu is a Ph.D. student at MIT. Her research surround climate-chemistry interactions with a current focus on tropospheric ozone.
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
