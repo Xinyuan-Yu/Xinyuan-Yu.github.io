@@ -11,7 +11,7 @@ I am currently a Ph.D. at MIT EPAS, working in Fiore Group [Fiore Group](https:/
 ## Research Interest:
 - **Chemistry-climate interactions:** Initial-condition ensemble simulations of CESM2-WACCM6
 - **Tropospheric ozone:** Upper versus lower tropospheric ozone trends
-- **Detection and attribution** Identifying human signal in observed tropospheric ozone trends
+- **Detection and attribution** Detecting external forced tropospheric ozone trends from internal climate variability
 - **Air quality modeling** PM2.5 simulations using WRF-Chem, MOZART-4 and CMAQ
 - **Black carbon** Distinguish roles of meterology and emissions on near-surface BC concentrations
 
