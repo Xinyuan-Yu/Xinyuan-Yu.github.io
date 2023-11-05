@@ -4,15 +4,17 @@ layout: homepage
 
 <h1 id="about-me"></h1>
 
-<h2 style="margin: 60px 0px 10px;">Short Bio</h2>
+<h2 style="margin: 60px 0px 10px;">About Me</h2>
 
-I am currently a Physics Ph.D. candidate at [Spin-Ion Technologies](https://www.spin-ion.com/) and [Université Paris-Saclay](https://www.universite-paris-saclay.fr/), working under the mentorship of Dr. [Ravelosona dafiné](https://www.spin-ion.com/about-us/), the director of research [CNRS](https://www.cnrs.fr/fr) and CTO of [Spin-Ion Technologies](https://www.spin-ion.com/). My research involves magnetoelectric ("ME") materials for energy-efficient information technology and "ME" materials for data security in information technology using Multiferroics/Magneto-ionics/Surface charging, with a special focus on the boosting magneto-ionic effect using ion irradiation and implantation.
+I am currently a Ph.D. at MIT EPAS, working in Fiore Group [Fiore Group](https://www.teampaccc.mit.edu) since Sep 2022. My current research surrounds chemistry-climate modeling with a focus on tropospheric ozone. Previously, I received BS and MS in Environmental Science from Peking University with Prof. Shu Tao. While at PKU, my work focused on utilizing air quality modeling to establish reduced-form models for black carbon.
+
 ## Research Interest:
-- **Ion-material Simulation:** SRIM, iradina, IMSIL, CORETO, TRIDYN, MARLOWE, RustBCA
-- **Machine Learning:** fairness AI, penalization and augmentation methods
-- **E-field controlled magnetization** VCMA, Strain-mediated ME (Magnetoelectric) Effects, Straintronic, iontronic, E-filed induced spin reorientation, SOT.
-- **Micro-, Nanofabrication**
-- **Neuromorphic Computing** Neuromorphic Sensing and Perception, Hybrid Computing Systems, Brain-Inspired Robotics
+- **Chemistry-climate interactions:** Initial-condition ensemble simulations of CESM2-WACCM6
+- **Tropospheric ozone:** Upper versus lower tropospheric ozone trends
+- **Detection and attribution** Identifying human signal in observed tropospheric ozone trends
+- **Air quality modeling** PM2.5 simulations using WRF-Chem, MOZART-4 and CMAQ
+- **Black carbon** Distinguish roles of meterology and emissions on near-surface BC concentrations
+
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/projects.md %}
