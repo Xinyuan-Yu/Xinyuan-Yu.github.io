@@ -7,13 +7,13 @@ affiliation_link: https://web.mit.edu
 subaffiliation_link: https://eapsweb.mit.edu
 affiliation_logo: ./assets/img/logo_combined.svg
 affiliation_logo_link: https://eapsweb.mit.edu
-email: xyyu (at) mit.edu
+email: xyyu@mit.edu
 address: 77 MASSACHUSETTS AVENUE, CAMBRIDGE, MA 02139
 
 # Search Engine Optimization (SEO)
 keywords: Xinyuan Yu, Xinyuan, Yu Xinyuan
 canonical: https://xinyuan-yu.github.io/
-description: Xinyuan Yu is a Ph.D. student at MIT. Her research surround climate-chemistry interactions with a current focus on tropospheric ozone.
+description: Xinyuan Yu is a Ph.D. student at MIT. Her research interests surround climate-chemistry interactions with a current focus on tropospheric ozone.
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
@@ -30,8 +30,8 @@ twitter:
 
 # Images 
 avatar: ./assets/img/avatar.jpg
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/favicon_black.svg
+favicon_dark: ./assets/img/favicon_white.svg
 
 # Footnotes
 # Footnote
@@ -43,11 +43,11 @@ enable_footnote: false
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: ${{ secrets.CLUSTRMAPS_ID }}
+#clustrmaps_id: ${{ secrets.CLUSTRMAPS_ID }}
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+#google_analytics: ${{ secrets.GOOGLE_SCHOLAR_ID }}
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
