@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">About Me</h2>
 
-I am currently a Ph.D. at MIT EPAS, working in Fiore Group [Fiore Group](https://www.teampaccc.mit.edu) since Sep 2022. My current research surrounds chemistry-climate modeling with a focus on tropospheric ozone. Previously, I received BS and MS in Environmental Science from Peking University with Prof. Shu Tao. While at PKU, my work focused on utilizing air quality modeling to establish reduced-form models for black carbon.
+I am currently a Ph.D. at MIT EPAS, working in [Fiore Group](https://www.teampaccc.mit.edu) since Sep 2022. My current research surrounds chemistry-climate modeling with a focus on tropospheric ozone. Previously, I received BS and MS in Environmental Science from Peking University with Prof. Shu Tao. While at PKU, my work focused on utilizing air quality modeling to establish reduced-form models for black carbon.
 
 ## Research Interest:
 - **Chemistry-climate interactions:** Initial-condition ensemble simulations of CESM2-WACCM6
