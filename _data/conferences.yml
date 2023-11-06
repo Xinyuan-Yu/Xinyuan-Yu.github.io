@@ -1,11 +1,11 @@
 main:
 
-  - title: Reversible and Non-volatile Magneto-ionic effect in W-CoFeB-MgO-HfO2 ultra-thin films with Perpendicular Anisotropy
-    authors: Song Chen, Elmer Monteblanco, Rohit Pachat, Liza Herrera Diez, Dafiné Ravelosona
-    conference_short: JEMS
-    conference: 13th Joint European Magnetic Symposia
-    pdf: ./assets/files/JEMS2023_Song.pdf
-    web: https://www.jems2023.es/
+  - title: Optimization and Improvement of Atmospheric PM2.5 Reduced Form Model (Oral)
+    authors: Xinyuan Yu, Qirui Zhong, Shu Tao
+    conference_short: ICEPH
+    conference: 5th International Conference on Environmental Pollution and Health
+    #pdf: ./assets/files/JEMS2023_Song.pdf
+    #web: https://www.jems2023.es/
     image: ./assets/files/JEMS2023_2.jpg
     notes: Accepted
 
