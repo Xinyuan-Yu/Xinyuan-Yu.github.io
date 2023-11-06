@@ -4,9 +4,9 @@ main:
     conference_short: 2023 CESM AMWG
     conference: Atmosphere Model, Chemistry Climate & Whole Atmosphere Working Group Meeting 2023
     #abstract: The BeMAGIC conference in Torino, entitled “Beyond Magnetoelectric Materials”, was successfully organized by the network ESRs (Early Stage Researchers). This event took place on 12-15 June 2023 at the Starhotel Majestic, Torino, Italy. The programme included 15 top-class experts in the magnetoelectric field, who delivered lectures on the following topics&#58; multiferroics, surface charging, magnetoionics and applications in healthcare, energy efficiency and cybersecurity.
-    pdf: https://bemagic-etn.eu/images/files2023/BeMAGIC_Conference_Torino_2023.pdf
-    web: https://bemagic-etn.eu/news/79-bemagic-conference-in-torino-2023-post-event
-    image: ./assets/img/Group_picture.jpg
+    pdf: https://www.cesm.ucar.edu/sites/default/files/2023-03/2023-AMWG-X-Yu.pdf
+    web: https://www.cesm.ucar.edu/events/working-groups/2023/atmos
+    image: ./assets/img/2023 CESM AMWG.jepg
 
   - title: Optimization and Improvement of Atmospheric PM2.5 Reduced Form Model (Oral)
     authors: Xinyuan Yu, Qirui Zhong, Shu Tao
