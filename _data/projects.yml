@@ -1,9 +1,10 @@
 main:
 
-  - title: Identifying influences of anthropogenic forcings versus climate variability on tropospheric ozone
+  - title: Detectability of Anthropogenic Fingerprint in Increasing Upper Tropospheric Ozone
+  #Identifying influences of different anthropogenic forcings versus climate variability on tropospheric ozone
     #authors: X
     project_short: Primary generals project
-    project: Using initial-condition ensembles from CESM2-WACCM6 similations to 
+    project: Using UT O3 observations during 2005-2021 from OMI/MLS satellite product and model simulations during 1950-2014 from a 16-member initial-condition ensemble of CESM2-WACCM6;Applying techniques developed for detecting anthropogenic climate change to tropospheric ozone
     #pdf: ./assets/files/AutoVA.pdf
     #web: 
     image: ./assets/img/project.jpg
