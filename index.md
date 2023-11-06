@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">About Me</h2>
 
-I am currently a Ph.D. at MIT EAPS, working in [Fiore Group](https://www.teampaccc.mit.edu) with [Prof. Arlene Fiore](https://eapsweb.mit.edu/people/amfiore) since Sep 2022. My current research surrounds chemistry-climate modeling with a focus on tropospheric ozone. Previously, I received BS and MS in Environmental Science at Peking University under [Prof. Shu Tao](https://www.ues.pku.edu.cn/jszy/ts/tsgrjl/index.htm)'s guidance. While at PKU, my work focused on utilizing air quality modeling to establish reduced-form models for black carbon.
+I am currently a Ph.D. at MIT EAPS, working in [Fiore Group](https://www.teampaccc.mit.edu) with [Prof. Arlene Fiore](https://eapsweb.mit.edu/people/amfiore) since Sep 2022. My current research surrounds chemistry-climate modeling with a focus on tropospheric ozone. Previously, I earned BS and MS in Environmental Science at Peking University under [Prof. Shu Tao](https://www.ues.pku.edu.cn/jszy/ts/tsgrjl/index.htm)'s guidance. While at PKU, my work focused on utilizing air quality modeling to establish reduced-form models for black carbon.
 
 ## Research Interest:
 - **Chemistry-climate interactions:** Initial-condition ensemble simulations of CESM2-WACCM6
