@@ -8,7 +8,7 @@ subaffiliation_link: https://eapsweb.mit.edu
 affiliation_logo: ./assets/img/logo_combined.svg
 affiliation_logo_link: https://eapsweb.mit.edu
 email: xyyu@mit.edu
-address: 77 MASSACHUSETTS AVENUE, CAMBRIDGE, MA 02139
+#address: 77 MASSACHUSETTS AVENUE, CAMBRIDGE, MA 02139
 
 # Search Engine Optimization (SEO)
 keywords: Xinyuan Yu, Xinyuan, Yu Xinyuan MIT
@@ -26,7 +26,7 @@ google_scholar: https://scholar.google.com/citations?user=j3fXNlcAAAAJ&hl=en&oi=
 cv_link: 
 github_link: https://github.com/Xinyuan-Yu/
 twitter: 
-#researchgate: https://www.researchgate.net/profile/Song-Chen-60
+researchgate: https://www.researchgate.net/profile/Xinyuan-Yu-5
 
 # Images 
 avatar: ./assets/img/avatar.jpg
