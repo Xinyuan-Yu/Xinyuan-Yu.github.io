@@ -1,6 +1,6 @@
 <h1 id="On-going Project"></h1>
 
-<h2 style="margin: 30px 0px -15px;">Projects<temp style="font-size:15px;"></temp></h2>
+<h2 style="margin: 30px 0px -15px;">On-going Project<temp style="font-size:15px;"></temp></h2>
 
 <div class="publications">
 <ol class="bibliography">
