@@ -1,6 +1,7 @@
 main:
 
   - title: Characterizing impacts of external forcings and internal climate variability on interannual upper tropospheric ozone (UT O3) variations (Oral)
+    authors: Xinyuan Yu, Arlene Fiore
     conference_short: 2023 CESM AMWG
     conference: Atmosphere Model, Chemistry Climate & Whole Atmosphere Working Group Meeting 2023
     #abstract: The BeMAGIC conference in Torino, entitled “Beyond Magnetoelectric Materials”, was successfully organized by the network ESRs (Early Stage Researchers). This event took place on 12-15 June 2023 at the Starhotel Majestic, Torino, Italy. The programme included 15 top-class experts in the magnetoelectric field, who delivered lectures on the following topics&#58; multiferroics, surface charging, magnetoionics and applications in healthcare, energy efficiency and cybersecurity.
@@ -9,7 +10,7 @@ main:
     image: ./assets/img/2023 CESM AMWG.jpg
 
   - title: Optimization and Improvement of Atmospheric PM2.5 Reduced Form Model (Oral)
-    authors: Xinyuan Yu, Qirui Zhong, Shu Tao
+    authors: Xinyuan Yu, QiRui Zhong, Xiao Yun, Wenjun Meng, Shu Tao
     conference_short: ICEPH
     conference: 5th International Conference on Environmental Pollution and Health
     #pdf: ./assets/files/JEMS2023_Song.pdf
