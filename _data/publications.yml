@@ -10,7 +10,7 @@ main:
     #image: ./assets/files/multi.jpg
 #    notes: Accepted
 
-  - title: Direct and Inverse Reduced-Form Models for Reciprocal Calculation of BC Emissions and Atmospheric Concentrations
+  - title: Direct and inverse reduced-form models for reciprocal calculation of BC emissions and atmospheric concentrations
     authors: <strong>Xinyuan Yu</strong>, Qirui Zhong, Wenxiao Zhang, Wenjun Meng, Xiao Yun, Haoran Xu, Huizhong Shen, Guofeng Shen, Jianmin Ma, Hefa Cheng, Bengang Li, Junfeng Liu, Shu Tao
     conference_short: Environ. Sci. Technol.
     conference: Environmental Science & Technology
