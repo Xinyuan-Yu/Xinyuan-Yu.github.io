@@ -6,6 +6,7 @@ main:
 
   - title: "Conferences & Events"
     url: ./#conferences
+    right: true 
 
   - title: "Publications"
     url: ./#publications
