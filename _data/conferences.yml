@@ -6,7 +6,7 @@ main:
     #abstract: The BeMAGIC conference in Torino, entitled “Beyond Magnetoelectric Materials”, was successfully organized by the network ESRs (Early Stage Researchers). This event took place on 12-15 June 2023 at the Starhotel Majestic, Torino, Italy. The programme included 15 top-class experts in the magnetoelectric field, who delivered lectures on the following topics&#58; multiferroics, surface charging, magnetoionics and applications in healthcare, energy efficiency and cybersecurity.
     pdf: https://www.cesm.ucar.edu/sites/default/files/2023-03/2023-AMWG-X-Yu.pdf
     web: https://www.cesm.ucar.edu/events/working-groups/2023/atmos
-    image: ./assets/img/2023 CESM AMWG.jpeg
+    image: ./assets/img/2023 CESM AMWG.jpg
 
   - title: Optimization and Improvement of Atmospheric PM2.5 Reduced Form Model (Oral)
     authors: Xinyuan Yu, Qirui Zhong, Shu Tao
