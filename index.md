@@ -18,5 +18,3 @@ I am currently a Ph.D. at MIT EAPS, working in [Fiore Group](https://www.teampac
 {% include_relative _includes/projects.md %}
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/conference.md %}
