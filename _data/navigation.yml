@@ -4,12 +4,9 @@ main:
 #    url: ./#contact 
 #    right: true 
 
-  - title: "Conferences & Events"
-    url: ./#conferences
-    right: true 
-
   - title: "Publications"
     url: ./#publications
+    right: true 
 
   - title: "On-going Project"
     url: ./#projects

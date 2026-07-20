@@ -1,11 +1,7 @@
 main:
 
-  - title: Detectability of anthropogenic fingerprint in observed upper tropospheric ozone trends
-  #Identifying influences of different anthropogenic forcings versus climate variability on tropospheric ozone
-    authors: Using UT O3 observations during 2005-2021 from OMI/MLS satellite product and model simulations during 1950-2014 from a 16-member initial-condition ensemble of CESM2-WACCM6; Applying climate fingerprint method developed for detecting anthropogenic climate change to tropospheric ozone
-    #pdf: ./assets/files/AutoVA.pdf
-    project_short: Primary generals project
-    #project: 
-    #web: 
+  - title: Climate responses to tropospheric ozone changes from pre-industrial to present-day
+    authors: Investigating climate responses to tropospheric ozone changes using CESM2-CAM6, with emphasis on multiple climate aspects beyond surface temperature.
+    project_short: Ph.D. project
+    project: Jan 2026 &ndash; Present
     image: ./assets/img/project.jpg
-    #notes: Non-Open Source

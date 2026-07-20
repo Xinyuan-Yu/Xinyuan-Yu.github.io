@@ -1,23 +1,29 @@
 main:
 
-#  - title: Rigorous regional air quality standards for substantial heath benefits
-#    authors: Wenxiao Zhang, Haoran Xu, <strong>Xinyuan Yu</strong>, Jin Li, Yuanzheng Zhang, Rong Dai, Shuxiu Zheng, Wenjun Meng, Huizhong Shen, Yilin Chen, Guofeng Shen, Jianmin Ma, Bengang Li, Junfeng Liu, Xuejun Wang 
-#    conference_short: Sens. Actuators B Chem.
-#    conference: Earth's Future
-    #pdf: ./assets/files/multi.pdf
-    #page: https://www.sciencedirect.com/science/article/abs/pii/S0925400521013800?via%3Dihub
-    #bibtex: ./assets/files/multi.txt
-    #image: ./assets/files/multi.jpg
-#    notes: Accepted
+  - title: "Surface Anthropogenic NO<sub>x</sub> Emissions Drive 1995&ndash;2014 Increase in Tropospheric Ozone: Implications for Ozone and Methane Radiative Forcing"
+    authors: <strong>Xinyuan Yu</strong>, Arlene M. Fiore, Jeffery R. Scott, Sebastian D. Eastham, Jean-Fran&ccedil;ois Lamarque, Ragnhild B. Skeie, Stephanie Elkins
+    conference_short: Geophys. Res. Lett.
+    conference: Geophysical Research Letters, 2026, 53(12), e2025GL121529
+    pdf: https://doi.org/10.1029/2025GL121529
+    page: https://doi.org/10.1029/2025GL121529
+    code: https://doi.org/10.5281/zenodo.20043952
+    image: ./assets/img/project.jpg
+    notes: Published
+
+  - title: Anthropogenic Fingerprint Detectable in Upper Tropospheric Ozone Trends Retrieved from Satellite
+    authors: <strong>Xinyuan Yu</strong>, Arlene M. Fiore, Benjamin D. Santer, Gustavo P. Correa, Jean-Fran&ccedil;ois Lamarque, Jerald R. Ziemke, Sebastian D. Eastham, Qindan Zhu
+    conference_short: Environ. Sci. Technol.
+    conference: Environmental Science &amp; Technology, 2024, 58(32), 14306&ndash;14317
+    pdf: https://doi.org/10.1021/acs.est.4c01289
+    page: https://doi.org/10.1021/acs.est.4c01289
+    image: ./assets/img/project.jpg
+    notes: Published
 
   - title: Direct and inverse reduced-form models for reciprocal calculation of BC emissions and atmospheric concentrations
     authors: <strong>Xinyuan Yu</strong>, Qirui Zhong, Wenxiao Zhang, Wenjun Meng, Xiao Yun, Haoran Xu, Huizhong Shen, Guofeng Shen, Jianmin Ma, Hefa Cheng, Bengang Li, Junfeng Liu, Shu Tao
     conference_short: Environ. Sci. Technol.
-    conference: Environmental Science & Technology
+    conference: Environmental Science &amp; Technology, 2021
     pdf: https://pubs.acs.org/doi/epdf/10.1021/acs.est.1c02174
     page: https://pubs.acs.org/doi/full/10.1021/acs.est.1c02174
-    #bibtex: ./assets/files/magnetoionic.txt
     image: ./assets/files/paper.jpg
     notes: Published
-
-  
