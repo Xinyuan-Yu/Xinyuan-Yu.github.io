@@ -8,7 +8,6 @@ main:
     page: https://doi.org/10.1029/2025GL121529
     code: https://doi.org/10.5281/zenodo.20043952
     image: ./assets/files/grl2026_sarf.png
-    notes: Published
 
   - title: Anthropogenic Fingerprint Detectable in Upper Tropospheric Ozone Trends Retrieved from Satellite
     authors: <strong>Xinyuan Yu</strong>, Arlene M. Fiore, Benjamin D. Santer, Gustavo P. Correa, Jean-Fran&ccedil;ois Lamarque, Jerald R. Ziemke, Sebastian D. Eastham, Qindan Zhu
@@ -16,8 +15,8 @@ main:
     conference: Environmental Science &amp; Technology, 2024, 58(32), 14306&ndash;14317
     pdf: https://doi.org/10.1021/acs.est.4c01289
     page: https://doi.org/10.1021/acs.est.4c01289
+    code: https://doi.org/10.5281/zenodo.11895904
     image: ./assets/img/project.jpg
-    notes: Published
 
   - title: Direct and inverse reduced-form models for reciprocal calculation of BC emissions and atmospheric concentrations
     authors: <strong>Xinyuan Yu</strong>, Qirui Zhong, Wenxiao Zhang, Wenjun Meng, Xiao Yun, Haoran Xu, Huizhong Shen, Guofeng Shen, Jianmin Ma, Hefa Cheng, Bengang Li, Junfeng Liu, Shu Tao
@@ -26,4 +25,3 @@ main:
     pdf: https://pubs.acs.org/doi/epdf/10.1021/acs.est.1c02174
     page: https://pubs.acs.org/doi/full/10.1021/acs.est.1c02174
     image: ./assets/files/paper.jpg
-    notes: Published
