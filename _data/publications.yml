@@ -7,7 +7,7 @@ main:
     pdf: https://doi.org/10.1029/2025GL121529
     page: https://doi.org/10.1029/2025GL121529
     code: https://doi.org/10.5281/zenodo.20043952
-    image: ./assets/img/project.jpg
+    image: ./assets/files/grl2026_sarf.png
     notes: Published
 
   - title: Anthropogenic Fingerprint Detectable in Upper Tropospheric Ozone Trends Retrieved from Satellite
