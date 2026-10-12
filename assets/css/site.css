@@ -91,23 +91,13 @@ strong { color: var(--ink); }
 .section { padding: 4rem 0 4.5rem; }
 .page-title {
   font-size: clamp(1.9rem, 3.2vw, 2.5rem); font-weight: 800; letter-spacing: -.025em; margin-bottom: .6rem;
-  background: var(--grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
-  width: fit-content;
+  color: var(--ink);
 }
 .page-desc { font-size: 1.08rem; color: var(--text-2); margin-bottom: 2.5rem; max-width: 46rem; }
 
 /* ── Home hero ───────────────────────────────────────── */
 .home { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
-.hero { flex: 1; padding: 3.5rem 0 3rem; position: relative;
-  background:
-    radial-gradient(ellipse at 80% 30%, rgba(42,122,184,.09) 0%, transparent 60%),
-    radial-gradient(ellipse at 10% 85%, rgba(209,96,61,.06) 0%, transparent 55%);
-}
-[data-theme="dark"] .hero {
-  background:
-    radial-gradient(ellipse at 80% 30%, rgba(108,180,234,.08) 0%, transparent 60%),
-    radial-gradient(ellipse at 10% 85%, rgba(242,147,111,.05) 0%, transparent 55%);
-}
+.hero { flex: 1; padding: 3.5rem 0 3rem; }
 .hero__row { display: flex; align-items: center; gap: 4rem; }
 .hero__text { flex: 1; min-width: 0; }
 .hero__hello { font-size: 1rem; color: var(--text-3); font-weight: 500; }
