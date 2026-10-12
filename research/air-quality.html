@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fast models linking emissions, air quality, and health — Xinyuan Yu</title>
+  <title>From emissions to air quality to health — Xinyuan Yu</title>
   <meta name="description" content="Full chemical transport models are too expensive to run for every emission scenario a policymaker might ask about. At Peking University, I built reduced-fo">
   <meta name="keywords" content="Xinyuan Yu, MIT EAPS, tropospheric ozone, air quality, chemistry-climate">
   <link rel="canonical" href="https://xinyuan-yu.github.io/research/air-quality.html">
@@ -49,30 +49,59 @@
   <div class="container">
     <article class="detail t-coral">
       <a href="../research.html" class="back">← Back to Research</a>
-      <div class="tags"><span class="tag">Air quality modeling</span><span class="tag tag--sub">Black carbon · PM<sub>2.5</sub> · Health</span></div>
-      <h1>Fast models linking emissions, air quality, and health</h1>
-      <p class="lede">Full chemical transport models are too expensive to run for every emission scenario a policymaker might ask about. At Peking University, I built reduced-form models that translate quickly between emissions and air pollutant concentrations, and contributed to studies of emissions, PM<sub>2.5</sub> trends, and the health benefits of cleaner energy.</p>
+      <div class="tags"><span class="tag">Air quality &amp; health</span><span class="tag tag--sub">Peking University · with Prof. Shu Tao</span></div>
+      <h1>From emissions to air quality to health</h1>
+      <p class="lede">Reducing the health burden of air pollution means knowing where pollutants come from, how they become the air people breathe, and what cleaner air is worth. At Peking University, my work in Prof. Shu Tao's group followed that whole chain.</p>
+      <ol class="flow" aria-label="From emissions to air quality to health">
+      <li class="flow__step">
+        <span class="flow__num">Step 1 · Emissions</span>
+        <h3 class="flow__title">Emission inventories</h3>
+        <p class="flow__desc">Where pollutants come from: global and sector-resolved inventories of black carbon and SO<sub>2</sub>, and household energy use.</p>
+        <ul class="flow__papers"><li><a href="https://doi.org/10.1021/acs.est.1c03117" target="_blank" rel="noopener">Global BC emissions, 1960–2017</a></li><li><a href="https://doi.org/10.1016/j.atmosres.2021.105709" target="_blank" rel="noopener">Biomass burning SO<sub>2</sub></a></li><li><a href="https://doi.org/10.1021/acs.est.2c09344" target="_blank" rel="noopener">Rural household boiling energy</a></li></ul>
+      </li>
+      <li class="flow__step">
+        <span class="flow__num">Step 2 · Air quality</span>
+        <h3 class="flow__title">Air quality modeling</h3>
+        <p class="flow__desc">How emissions become concentrations: fast reduced-form models for black carbon, PM<sub>2.5</sub> trends separated from meteorology, and indoor PM<sub>2.5</sub>.</p>
+        <ul class="flow__papers"><li><a href="https://doi.org/10.1021/acs.est.1c02174" target="_blank" rel="noopener"><strong>Reduced-form BC models</strong> (first author)</a></li><li><a href="https://doi.org/10.1016/j.oneear.2021.02.003" target="_blank" rel="noopener">PM<sub>2.5</sub> trends vs. meteorology</a></li><li><a href="https://doi.org/10.1021/acs.estlett.9b00544" target="_blank" rel="noopener">Indoor PM<sub>2.5</sub> lidar</a></li></ul>
+      </li>
+      <li class="flow__step">
+        <span class="flow__num">Step 3 · Health</span>
+        <h3 class="flow__title">Health impacts</h3>
+        <p class="flow__desc">What cleaner air is worth: premature deaths avoided by energy transitions, clean heating, siting of coal use, and stricter standards.</p>
+        <ul class="flow__papers"><li><a href="https://doi.org/10.1016/j.oneear.2021.10.013" target="_blank" rel="noopener">Energy switching, 2.2 M deaths avoided</a></li><li><a href="https://doi.org/10.1021/acs.est.0c04019" target="_blank" rel="noopener">Clean-heating strategy</a></li><li><a href="https://doi.org/10.1021/acs.est.1c01148" target="_blank" rel="noopener">Where coal is burned</a></li><li><a href="https://doi.org/10.1029/2023EF003860" target="_blank" rel="noopener">Regional air quality standards</a></li></ul>
+      </li>
+    </ol>
+      <h2>1. Emission inventories</h2>
+      <p>
+        Every air quality estimate starts with emissions. I contributed to updated global black carbon emissions
+        from 1960 to 2017, which trace how fuel use and technology shaped emission trends, and to estimates of
+        biomass burning's contribution to global and regional SO<sub>2</sub>. Work on rural drinking water linked
+        everyday household energy use, such as boiling water, to its fuel demand.
+      </p>
+      <h2>2. Air quality modeling</h2>
+      <p>
+        Full chemical transport models are too expensive to rerun for every emission scenario. Using simulations with
+        WRF-Chem, MOZART-4, and CMAQ, I built direct and inverse reduced-form models for black carbon. The direct model
+        maps emissions to concentrations and the inverse model maps concentrations back to emissions, so the two can be
+        calculated from each other quickly. They also help separate the roles of meteorology and emissions in
+        near-surface concentrations.
+      </p>
       <figure class="figure">
         <img src="../assets/files/paper.jpg" alt="Schematic of reduced-form direct and inverse models linking gridded emissions to gridded concentrations through transfer weights">
         <figcaption>Reduced-form direct models (RFDMs) map gridded emissions to concentrations through transfer weights W<sub>ij</sub>; reduced-form inverse models (RFIMs) run the other way, from concentrations back to emissions.</figcaption>
       </figure>
-      <h2>Reduced-form models for black carbon</h2>
       <p>
-        Using air quality simulations with WRF-Chem, MOZART-4, and CMAQ, I developed direct and inverse
-        reduced-form models for black carbon (BC). The direct model estimates concentrations from emissions;
-        the inverse model estimates emissions from concentrations. Together they allow reciprocal calculation
-        between the two at a fraction of the cost of a full model, and help distinguish the roles of
-        meteorology and emissions in near-surface BC.
+        Related work showed that PM<sub>2.5</sub> reductions in Chinese cities from 2013 to 2019 remain significant
+        once the effect of meteorological conditions is removed, and tested a side-scatter lidar for profiling indoor PM<sub>2.5</sub>.
       </p>
-      <h2>Air quality and health</h2>
+      <h2>3. Health impacts</h2>
       <p>
-        I also contributed modeling to studies in Prof. Shu Tao's group on:
+        The last step turns concentrations into exposure and health outcomes. These studies estimated that urban
+        residential energy switching in China between 1980 and 2014 prevented 2.2 million premature deaths, compared
+        clean-heating strategies in northern China, showed that where coal is burned strongly affects its health cost,
+        and assessed the benefits of more rigorous regional air quality standards.
       </p>
-      <ul>
-        <li>Why PM<sub>2.5</sub> reductions in Chinese cities from 2013 to 2019 remain significant after accounting for meteorology</li>
-        <li>Premature deaths prevented by urban residential energy switching in China, and the health benefits of clean-heating strategies and stricter regional air quality standards</li>
-        <li>Updated global black carbon and SO<sub>2</sub> emission inventories, and how the location of coal burning shapes its impacts</li>
-      </ul>
       <p>
         This experience with air pollution and health continues to inform my current work on ozone,
         which is both a surface pollutant and a climate forcer.
@@ -81,12 +110,10 @@
       <div class="pubbox">
         <h2>Related publications</h2>
         <ul>
-          <li><a href="https://doi.org/10.1021/acs.est.1c02174" target="_blank" rel="noopener"><strong>Yu et al. (2021)</strong>, <em>Environmental Science &amp; Technology</em>, 55(15), 10300–10309</a></li>
-          <li><a href="https://doi.org/10.1016/j.oneear.2021.02.003" target="_blank" rel="noopener">Zhong et al. (2021), <em>One Earth</em>, 4(3), 448–458</a></li>
-          <li><a href="https://doi.org/10.1016/j.oneear.2021.10.013" target="_blank" rel="noopener">Zhang et al. (2021), <em>One Earth</em>, 4(11), 1602–1613</a></li>
-          <li><a href="https://doi.org/10.1029/2023EF003860" target="_blank" rel="noopener">Zhang et al. (2023), <em>Earth's Future</em>, 11(12), e2023EF003860</a></li>
-          <li><a href="https://doi.org/10.1021/acs.est.0c04019" target="_blank" rel="noopener">Meng et al. (2020), <em>Environmental Science &amp; Technology</em>, 54(21), 13458–13466</a></li>
-          <li><a href="../publications.html">See all publications →</a></li>
+          <li><strong>Emissions:</strong> Xu et al. (2021) <em>ES&amp;T</em> · Ren et al. (2021) <em>Atmos. Res.</em> · Zhu et al. (2023) <em>ES&amp;T</em></li>
+          <li><strong>Air quality:</strong> <a href="https://doi.org/10.1021/acs.est.1c02174" target="_blank" rel="noopener"><strong>Yu et al. (2021)</strong> <em>ES&amp;T</em></a> · Zhong et al. (2021) <em>One Earth</em> · Qiu et al. (2019) <em>ES&amp;T Letters</em></li>
+          <li><strong>Health:</strong> Zhang et al. (2021) <em>One Earth</em> · Meng et al. (2020) <em>ES&amp;T</em> · Yun et al. (2021) <em>ES&amp;T</em> · Zhang et al. (2023) <em>Earth's Future</em></li>
+          <li><a href="../publications.html">Full citations on the Publications page →</a></li>
         </ul>
       </div>
     </article>
