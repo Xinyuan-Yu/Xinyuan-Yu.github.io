@@ -4,20 +4,20 @@
    ================================================================ */
 
 :root {
-  --ink:        #13233a;
-  --sky:        #2a7ab8;   /* ozone / climate blue */
-  --sky-dk:     #1d5d8f;
-  --sky-lt:     #e8f2fa;
-  --coral:      #d1603d;   /* air quality / health warm accent */
-  --coral-lt:   #fcefe9;
-  --sage:       #3f8f6b;   /* radiative forcing / climate */
-  --sage-lt:    #e9f5ef;
+  --ink:        #1f1433;
+  --sky:        #4b1d8f;   /* ozone / climate blue */
+  --sky-dk:     #330662;
+  --sky-lt:     #efedfd;
+  --coral:      #7a3d8f;   /* air quality / health warm accent */
+  --coral-lt:   #f5ecf8;
+  --sage:       #5b45b8;   /* radiative forcing / climate */
+  --sage-lt:    #eeebfb;
   --bg:         #ffffff;
-  --bg-alt:     #f6f8fb;
+  --bg-alt:     #f7f6fc;
   --text:       #1f2937;
   --text-2:     #4b5563;
   --text-3:     #8a94a3;
-  --border:     #e3e8ef;
+  --border:     #e6e3f0;
   --card:       #ffffff;
   --radius:     12px;
   --shadow-sm:  0 1px 3px rgba(19,35,58,.06), 0 1px 2px rgba(19,35,58,.04);
@@ -28,21 +28,21 @@
 }
 
 [data-theme="dark"] {
-  --ink:        #e6ebf2;
-  --sky:        #6cb4ea;
-  --sky-dk:     #9ccdf2;
-  --sky-lt:     rgba(108,180,234,.12);
-  --coral:      #f2936f;
-  --coral-lt:   rgba(242,147,111,.12);
-  --sage:       #6fc79e;
-  --sage-lt:    rgba(111,199,158,.12);
-  --bg:         #0e1622;
-  --bg-alt:     #162131;
+  --ink:        #ece9f5;
+  --sky:        #c0c0fa;
+  --sky-dk:     #dcdcfd;
+  --sky-lt:     rgba(192,192,250,.12);
+  --coral:      #d9b3ec;
+  --coral-lt:   rgba(217,179,236,.12);
+  --sage:       #a99cf2;
+  --sage-lt:    rgba(169,156,242,.12);
+  --bg:         #13101c;
+  --bg-alt:     #1c1828;
   --text:       #e6ebf2;
   --text-2:     #c3cbd6;
   --text-3:     #75808f;
-  --border:     #2a3646;
-  --card:       #162131;
+  --border:     #2f2a40;
+  --card:       #1c1828;
   --shadow-sm:  0 1px 3px rgba(0,0,0,.35);
   --shadow-md:  0 6px 20px rgba(0,0,0,.4);
 }
