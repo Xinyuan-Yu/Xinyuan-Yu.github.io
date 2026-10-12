@@ -223,32 +223,9 @@ a.badge:hover { color: var(--sky); border-color: var(--sky); text-decoration: no
 }
 .era { flex-wrap: wrap; row-gap: .1rem; }
 
-/* ── Emissions → air quality → health flow ───────────── */
-.aq { display: grid; gap: 1.2rem; }
-.aq__intro { font-size: 1rem; color: var(--text-2); max-width: 46rem; }
-.aq__more { font-size: .92rem; font-weight: 600; color: var(--accent); width: fit-content; }
-.aq__more::after { content: ' →'; }
-.flow { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.4rem; margin: .4rem 0; }
-.flow__step { position: relative; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.2rem 1.25rem 1.3rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; min-width: 0; }
-.flow__step:not(:last-child)::after {
-  content: ''; position: absolute; top: 50%; right: -1.95rem; width: 1.5rem; height: 1.5rem; transform: translateY(-50%);
-  background: var(--accent);
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h15M13 6l6 6-6 6'/%3E%3C/svg%3E") center / contain no-repeat;
-          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12h15M13 6l6 6-6 6'/%3E%3C/svg%3E") center / contain no-repeat;
-}
-.flow__num { font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
-.flow__title { font-size: 1.08rem; font-weight: 700; color: var(--ink); margin: .2rem 0 .45rem; text-wrap: balance; }
-.flow__desc { font-size: .9rem; color: var(--text-2); margin-bottom: .8rem; }
-.flow__papers { list-style: none; display: grid; gap: .3rem; margin-top: auto; padding-top: .7rem; border-top: 1px dashed var(--border); font-size: .86rem; }
-.flow__papers a { color: var(--text-2); }
-.flow__papers a:hover { color: var(--accent); }
-.flow__papers li::before { content: '›'; color: var(--accent); margin-right: .4rem; font-weight: 700; }
-.detail .flow { margin: 1.6rem 0 1rem; gap: 2rem; }
-.detail .flow__step:not(:last-child)::after { right: -1.7rem; width: 1.3rem; height: 1.3rem; }
-.detail .flow__step { padding: 1rem 1rem 1.1rem; }
-.detail .flow__desc { display: none; }
-@media (max-width: 760px) {
-  .flow, .detail .flow { grid-template-columns: 1fr; gap: 2rem; }
-  .flow__step:not(:last-child)::after, .detail .flow__step:not(:last-child)::after { top: auto; bottom: -1.75rem; right: 50%; transform: translateX(50%) rotate(90deg); }
-  .detail .flow__desc { display: block; }
-}
+/* ── Small box chain: emission inventory → air quality → health ── */
+.chain { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: .35rem 0; margin: .1rem 0 .8rem; }
+.chain__box { font-size: .8rem; font-weight: 600; color: var(--accent); background: var(--accent-lt); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); border-radius: 6px; padding: .2rem .6rem; white-space: nowrap; }
+.chain { gap: .35rem .45rem; }
+.chain__arrow { color: var(--accent); font-weight: 600; font-size: .9rem; }
+.detail .chain { margin: -.4rem 0 1.4rem; }
