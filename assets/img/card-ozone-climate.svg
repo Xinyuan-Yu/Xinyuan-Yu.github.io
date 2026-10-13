@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#3a2356"/><stop offset=".45" stop-color="#7b4b86"/><stop offset=".75" stop-color="#d98a7a"/><stop offset="1" stop-color="#f3c79a"/>
+ </linearGradient>
+ <radialGradient id="sun2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff2c6"/><stop offset=".35" stop-color="#ffd98a" stop-opacity=".8"/><stop offset="1" stop-color="#ffb36b" stop-opacity="0"/></radialGradient>
+ <marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff8a6b"/></marker>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky2)"/>
+<circle cx="200" cy="140" r="260" fill="url(#sun2)"/>
+<circle cx="200" cy="140" r="70" fill="#fff4cf"/>
+<line x1="220" y1="140" x2="520" y2="820" stroke="#ffe7a8" stroke-width="5" stroke-opacity=".55" stroke-linecap="round"/><line x1="250" y1="148" x2="640" y2="820" stroke="#ffe7a8" stroke-width="5" stroke-opacity=".55" stroke-linecap="round"/><line x1="280" y1="156" x2="760" y2="820" stroke="#ffe7a8" stroke-width="5" stroke-opacity=".55" stroke-linecap="round"/><line x1="310" y1="164" x2="880" y2="820" stroke="#ffe7a8" stroke-width="5" stroke-opacity=".55" stroke-linecap="round"/>
+<path d="M-200 640 Q800 530 1800 640" fill="none" stroke="#c9b6ff" stroke-width="40" stroke-opacity=".28"/>
+<path d="M-200 640 Q800 530 1800 640" fill="none" stroke="#e3d8ff" stroke-width="3" stroke-opacity=".7" stroke-dasharray="2 12" stroke-linecap="round"/>
+<text x="1255" y="560" font-family="Inter, sans-serif" font-size="26" font-weight="600" fill="#ffffff" fill-opacity=".75" letter-spacing="3">O₃</text>
+<path d="M1000,830 L1003,824 L1006,818 L1008,812 L1011,806 L1012,800 L1013,794 L1014,788 L1014,782 L1013,776 L1012,770 L1010,764 L1008,758 L1005,752 L1002,746 L999,740 L996,734 L993,728 L991,722 L989,716 L987,710 L986,704 L986,698 L986,692 L987,686 L989,680 L991,674 L993,668 L996,662 L999,656 L1002,650 L1005,644 L1008,638 L1010,632" fill="none" stroke="#ff8a6b" stroke-width="5" stroke-opacity=".85" stroke-linecap="round"/><path d="M1000 628 q 60 -10 90 70" fill="none" stroke="#ff8a6b" stroke-width="5" stroke-opacity=".85" stroke-linecap="round" marker-end="url(#ah)"/><path d="M1180,830 L1183,824 L1186,818 L1188,812 L1191,806 L1192,800 L1193,794 L1194,788 L1194,782 L1193,776 L1192,770 L1190,764 L1188,758 L1185,752 L1182,746 L1179,740 L1176,734 L1173,728 L1171,722 L1169,716 L1167,710 L1166,704 L1166,698 L1166,692 L1167,686 L1169,680 L1171,674 L1173,668 L1176,662 L1179,656 L1182,650 L1185,644 L1188,638 L1190,632 L1192,626" fill="none" stroke="#ff8a6b" stroke-width="5" stroke-opacity=".85" stroke-linecap="round"/><path d="M1180 620 q 60 -10 90 70" fill="none" stroke="#ff8a6b" stroke-width="5" stroke-opacity=".85" stroke-linecap="round" marker-end="url(#ah)"/><path d="M1360,830 L1363,824 L1366,818 L1368,812 L1371,806 L1372,800 L1373,794 L1374,788 L1374,782 L1373,776 L1372,770 L1370,764 L1368,758 L1365,752 L1362,746 L1359,740 L1356,734 L1353,728 L1351,722 L1349,716 L1347,710 L1346,704 L1346,698 L1346,692 L1347,686 L1349,680 L1351,674 L1353,668 L1356,662 L1359,656 L1362,650 L1365,644 L1368,638 L1370,632 L1372,626 L1373,620 L1374,614 L1374,608 L1373,602 L1372,596 L1371,590 L1368,584 L1366,578 L1363,572 L1360,566 L1357,560 L1354,554 L1352,548 L1349,542 L1348,536 L1347,530 L1346,524 L1346,518 L1347,512 L1348,506 L1350,500 L1352,494 L1355,488 L1358,482 L1361,476 L1364,470 L1367,464 L1369,458 L1371,452 L1373,446 L1374,440 L1374,434 L1374,428 L1373,422 L1371,416 L1369,410 L1367,404 L1364,398 L1361,392 L1358,386 L1355,380 L1352,374 L1350,368 L1348,362 L1347,356 L1346,350 L1346,344 L1347,338 L1348,332 L1349,326 L1352,320 L1354,314 L1357,308 L1360,302" fill="none" stroke="#ff8a6b" stroke-width="5" stroke-opacity=".85" stroke-linecap="round"/><path d="M1350 320 L1360 300 L1370 320" fill="none" stroke="#ff8a6b" stroke-width="5" stroke-opacity=".85" stroke-linecap="round"/>
+<path d="M-200 1000 L-200 870 Q800 760 1800 870 L1800 1000 Z" fill="#4a3a4f"/>
+<path d="M-200 872 Q800 762 1800 872" fill="none" stroke="#ffcf9e" stroke-opacity=".7" stroke-width="6"/>
+<g fill="#3b2e40">
+ 
+</g>
+</svg>
