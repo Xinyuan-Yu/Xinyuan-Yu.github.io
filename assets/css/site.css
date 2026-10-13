@@ -262,3 +262,4 @@ a.badge:hover { color: var(--sky); border-color: var(--sky); text-decoration: no
 }
 .rcard__img--photo { object-fit: cover; padding: 0; background: var(--bg-alt); }
 .rcard--wide .rcard__img--photo { object-fit: cover; }
+.related .pub.first-author { border-left-color: transparent; }
