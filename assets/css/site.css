@@ -260,3 +260,5 @@ a.badge:hover { color: var(--sky); border-color: var(--sky); text-decoration: no
   .pw { font-size: .68rem; padding: .16rem .32rem; }
   .pw-arrow { font-size: .75rem; }
 }
+.rcard__img--photo { object-fit: cover; padding: 0; background: var(--bg-alt); }
+.rcard--wide .rcard__img--photo { object-fit: cover; }
