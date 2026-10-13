@@ -173,7 +173,7 @@ strong { color: var(--ink); }
 .year:first-of-type { margin-top: 0; }
 .pub { padding: 1rem 0 1rem .9rem; border-left: 3px solid transparent; border-bottom: 1px dashed var(--border); }
 .pub:last-child { border-bottom: none; }
-.pub.first-author { border-left-color: var(--sky); }
+
 .pub__title { font-size: 1.02rem; font-weight: 600; line-height: 1.45; color: var(--ink); }
 .pub__title a { color: var(--ink); }
 .pub__title a:hover { color: var(--sky); }
