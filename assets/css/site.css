@@ -263,3 +263,6 @@ a.badge:hover { color: var(--sky); border-color: var(--sky); text-decoration: no
 .rcard__img--photo { object-fit: cover; padding: 0; background: var(--bg-alt); }
 .rcard--wide .rcard__img--photo { object-fit: cover; }
 .related .pub.first-author { border-left-color: transparent; }
+/* full illustration without cropping its labels */
+.rcard__img--full { object-fit: contain; padding: 0; background: #d9cdb2; }
+.rcard--wide .rcard__img--full { align-self: center; height: auto; aspect-ratio: 1586 / 992; }
