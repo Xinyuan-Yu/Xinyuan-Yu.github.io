@@ -236,3 +236,27 @@ a.badge:hover { color: var(--sky); border-color: var(--sky); text-decoration: no
 .related__group { font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin: 1.4rem 0 .2rem; }
 .related .pub { padding-left: .9rem; }
 .page-title { margin-bottom: 2rem; }
+
+/* ── Pathway diagram: policies → emissions (+ meteorology) → PM2.5 → health ── */
+.pathway-wrap { overflow-x: auto; margin: .2rem 0 .9rem; }
+.detail .pathway-wrap { margin: .2rem 0 1.6rem; }
+.pathway {
+  display: inline-grid; align-items: center; gap: .35rem .4rem;
+  grid-template-columns: repeat(7, auto);
+  grid-template-areas:
+    "pol a1 em  a2 pm a4 he"
+    ".   .  met a3 pm a4 he";
+}
+.pw { font-size: .8rem; font-weight: 600; color: var(--accent); background: var(--accent-lt); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); border-radius: 6px; padding: .22rem .6rem; white-space: nowrap; text-align: center; }
+.pw--policy { grid-area: pol; background: var(--card); border-style: dashed; }
+.pw--em { grid-area: em; }
+.pw--met { grid-area: met; }
+.pw--pm { grid-area: pm; }
+.pw--health { grid-area: he; }
+.pw-arrow { color: var(--accent); font-weight: 600; font-size: .9rem; line-height: 1; text-align: center; }
+.pw-a1 { grid-area: a1; } .pw-a2 { grid-area: a2; align-self: end; } .pw-a3 { grid-area: a3; align-self: start; } .pw-a4 { grid-area: a4; }
+@media (max-width: 420px) {
+  .pathway { gap: .25rem .2rem; }
+  .pw { font-size: .68rem; padding: .16rem .32rem; }
+  .pw-arrow { font-size: .75rem; }
+}

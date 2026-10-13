@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detecting the human fingerprint in upper tropospheric ozone trends from satellite observations — Xinyuan Yu</title>
-  <meta name="description" content="Ozone in the upper troposphere is a potent greenhouse gas, and it has been rising over northern midlatitudes. Is that increase caused by people, or could i">
+  <title>Detecting and attributing tropospheric ozone trends — Xinyuan Yu</title>
+  <meta name="description" content="Tropospheric ozone has risen since preindustrial times, but its trends differ with altitude and region, and internal climate variability can mask or mimic ">
   <meta name="keywords" content="Xinyuan Yu, MIT EAPS, tropospheric ozone, air quality, chemistry-climate">
   <link rel="canonical" href="https://xinyuan-yu.github.io/research/ozone-trends.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Detecting the human fingerprint in upper tropospheric ozone trends from satellite observations — Xinyuan Yu">
-  <meta property="og:description" content="Ozone in the upper troposphere is a potent greenhouse gas, and it has been rising over northern midlatitudes. Is that increase caused by people, or could i">
+  <meta property="og:title" content="Detecting and attributing tropospheric ozone trends — Xinyuan Yu">
+  <meta property="og:description" content="Tropospheric ozone has risen since preindustrial times, but its trends differ with altitude and region, and internal climate variability can mask or mimic ">
   <meta property="og:url" content="https://xinyuan-yu.github.io/research/ozone-trends.html">
   <meta property="og:image" content="https://xinyuan-yu.github.io/assets/img/avatar.jpg">
   <meta name="twitter:card" content="summary">
@@ -50,46 +50,62 @@
     <article class="detail t-sky">
       <a href="../research.html" class="back">← Back to Research</a>
       <div class="tags"><span class="tag">Detection &amp; attribution</span><span class="tag tag--sub">Tropospheric ozone trends</span></div>
-      <h1>Detecting the human fingerprint in upper tropospheric ozone trends from satellite observations</h1>
-      <p class="lede">Ozone in the upper troposphere is a potent greenhouse gas, and it has been rising over northern midlatitudes. Is that increase caused by people, or could it be natural climate variability? I combine a chemistry–climate model ensemble with satellite observations to answer this question.</p>
+      <h1>Detecting and attributing tropospheric ozone trends</h1>
+      <p class="lede">Tropospheric ozone has risen since preindustrial times, but its trends differ with altitude and region, and internal climate variability can mask or mimic them. I combine chemistry–climate model ensembles, targeted sensitivity simulations, and observations to detect human influence on ozone trends and attribute them to their drivers.</p>
       <figure class="figure">
         <img src="../assets/img/project.jpg" alt="Annual mean upper and lower tropospheric ozone burden from 1950 to 2014 in a 16-member CESM2-WACCM6 ensemble">
         <figcaption>Annual mean ozone burden in the upper (blue) and lower (orange) troposphere in CESM2-WACCM6. Thin lines are 16 ensemble members with identical emissions but slightly different initial climate states; thick lines are the ensemble mean, the forced signal. The upper troposphere is noisier, which makes detection harder.</figcaption>
       </figure>
-      <h2>Approach</h2>
+
+      <h2>Detecting a human fingerprint in satellite records</h2>
       <p>
-        I ran an initial-condition ensemble of CESM2-WACCM6 simulations from 1950 to 2014. Every member
-        sees the same human emissions of ozone precursors but starts from a slightly different climate state,
-        so the spread among members measures internal climate variability, while their common response
-        defines a human-caused "fingerprint" pattern.
+        I ran an initial-condition ensemble of CESM2-WACCM6 simulations from 1950 to 2014. Every member sees the
+        same human emissions but starts from a slightly different climate state, so the spread among members
+        measures internal variability and their common response defines a human "fingerprint." Searching for
+        that fingerprint in tropospheric ozone retrieved from NASA's Aura satellite over 2005–2021, we found it
+        clearly: the increase in northern midlatitude upper tropospheric ozone reflects human activity rather
+        than climate noise, and it is strongest over Asia.
       </p>
+
+      <h2>Attributing the 1995–2014 increase to precursor emissions</h2>
       <p>
-        I then searched for that fingerprint in tropospheric ozone retrieved from instruments on NASA's
-        Aura satellite over 2005–2021, using pattern-based detection and attribution methods developed
-        for climate change studies.
+        To find out which emissions caused the increase, I perturbed one driver at a time in the 1995–2014
+        historical simulation: global and Asian surface anthropogenic emissions, NO<sub>x</sub> and non-methane
+        VOCs separately, and methane. Surface anthropogenic NO<sub>x</sub> emissions are the main driver of the
+        increase in tropospheric ozone, with Asian emissions playing a large role, and rising methane also contributes.
       </p>
-      <h2>What we found</h2>
-      <ul>
-        <li>The model-predicted human fingerprint is detectable in the satellite record of upper tropospheric ozone.</li>
-        <li>The increase over northern midlatitudes reflects human activity rather than climate noise, and is strongest over Asia, where emissions have grown and pollution is lofted to altitude.</li>
-        <li>Upper tropospheric trends appear decoupled from near-surface ozone, which has leveled off or declined in parts of North America and Europe under emission controls.</li>
-      </ul>
-      <h2>What's next</h2>
+
+      <h2>Ongoing: drivers in the lower and upper troposphere</h2>
       <p>
-        My ongoing work asks which sources — surface emissions, aviation, wildfires, methane — drive
-        ozone trends in the lower and upper troposphere, and how internal variability affects our ability
-        to attribute them.
+        Ozone trends near the surface and in the upper troposphere appear decoupled. My current work fingerprints
+        anthropogenic and biomass-burning sources to explain what drives trends in each layer, and how internal
+        climate variability affects our ability to attribute them. This study will be submitted to
+        <em>JGR: Atmospheres</em>.
       </p>
 
       <section class="related">
         <h2>Related publications</h2>
         <div class="pub-list">
-          <article class="pub first-author" data-t="ozone">
+          <article class="pub first-author" data-topic="ozone">
             <div class="pub__title"><a href="https://doi.org/10.1021/acs.est.4c01289" target="_blank" rel="noopener">Anthropogenic Fingerprint Detectable in Upper Tropospheric Ozone Trends Retrieved from Satellite</a></div>
             <div class="pub__authors"><strong>Yu, X.</strong>, Fiore, A. M., Santer, B. D., Correa, G. P., Lamarque, J.-F., Ziemke, J. R., Eastham, S. D., &amp; Zhu, Q.</div>
             <div class="pub__venue"><em>Environmental Science &amp; Technology</em>, 58(32), 14306–14317</div>
             <div class="pub__links"><a class="badge" href="https://doi.org/10.1021/acs.est.4c01289" target="_blank" rel="noopener">DOI</a><a class="badge" href="https://doi.org/10.5281/zenodo.11895904" target="_blank" rel="noopener">Code</a><a class="badge" href="https://news.mit.edu/2024/scientists-find-human-fingerprint-upper-tropospheres-increasing-ozone-0802" target="_blank" rel="noopener">MIT News</a></div>
           </article>
+          <article class="pub first-author" data-topic="ozone">
+            <div class="pub__title"><a href="https://doi.org/10.1029/2025GL121529" target="_blank" rel="noopener">Surface Anthropogenic NO<sub>x</sub> Emissions Drive 1995–2014 Increase in Tropospheric Ozone: Implications for Ozone and Methane Radiative Forcing</a></div>
+            <div class="pub__authors"><strong>Yu, X.</strong>, Fiore, A. M., Scott, J. R., Eastham, S. D., Lamarque, J.-F., Skeie, R. B., &amp; Elkins, S.</div>
+            <div class="pub__venue"><em>Geophysical Research Letters</em>, 53(12), e2025GL121529</div>
+            <div class="pub__links"><a class="badge" href="https://doi.org/10.1029/2025GL121529" target="_blank" rel="noopener">DOI</a><a class="badge" href="https://doi.org/10.5281/zenodo.20043952" target="_blank" rel="noopener">Code</a></div>
+          </article>
+          <article class="pub">
+            <div class="pub__title">Understanding the Drivers of Ozone Trends in the Lower and Upper Troposphere in the Presence of Internal Climate Variability</div>
+            <div class="pub__authors"><strong>Yu, X.</strong>, Fiore, A. M., Scott, J. R., Eastham, S. D., Lamarque, J.-F., Chiodo, G., et al.</div>
+            <div class="pub__links"><span class="badge badge--status">To be submitted to JGR: Atmospheres</span></div>
+          </article>
+        </div>
+      </section>
+    </article>
           <article class="pub">
             <div class="pub__title">Understanding the Drivers of Ozone Trends in the Lower and Upper Troposphere in the Presence of Internal Climate Variability</div>
             <div class="pub__authors"><strong>Yu, X.</strong>, Fiore, A. M., Scott, J. R., Eastham, S. D., Lamarque, J.-F., Chiodo, G., et al.</div>
