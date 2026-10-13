@@ -267,3 +267,4 @@ a.badge:hover { color: var(--sky); border-color: var(--sky); text-decoration: no
 .rcard__img--full { object-fit: contain; padding: 0; background: #d9cdb2; }
 .rcard--wide .rcard__img--full { align-self: center; height: auto; aspect-ratio: 1586 / 992; }
 .grid-credit { font-size: .8rem; color: var(--text-3); margin-top: .7rem; }
+.pub:target { background: var(--accent-lt, var(--bg-alt)); border-radius: 8px; scroll-margin-top: calc(var(--nav-h) + 1rem); }
